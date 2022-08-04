@@ -21,8 +21,11 @@ Given a vector of positive real numbers, the statistic **lmz** proposed in Urzú
 
 * It is not advisable to test for Zipf's law by means of a regression (Urzúa, 2011).
 
-* In a diverse number of disciplines, from Linguistics to Geography, it is not uncommon to test for Zipf's law. It is worth noticing, however, that such a law is a limit case among the distributions that exhibit more generally a power-law behavior. If the reader is A good number  
-* The **lmz** test is locally optimal if the alternative distributions also exhibit a power-law behavior. More generally, one could try to test first for power-law behavior by means of the **pwlaw** test (Urzúa 2020), which can be found in the repository 
+* In a diverse number of disciplines, from Linguistics to Geography, it is not uncommon to test for Zipf's law. It is worth noticing, however, that such a law is a limit case in thee class of the distributions that exhibit a power-law behavior. If the reader is A good number. The **lmz** test is locally optimal if the alternative distributions also exhibit a power-law behavior. More generally, one could try to test first for power-law behavior by means of the **pwlaw** test (Urzúa 2020), which can be found in the repository https://github.com/urzuacarlosm/A-test-for-power-law
+
+## Examples
+
+
 
 ## Bibliography
 
