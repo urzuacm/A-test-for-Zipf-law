@@ -8,17 +8,22 @@ Carlos M. Urzúa, urzuacarlosm@gmail.com
 
 ## Description
 
-Given a vector of positive real numbers, the statistic **lmz** proposed in Urzúa (2000) can be used to test for Zipf's law. Since, under the null, **lmz** is asymptotically distributed as a chi-squared with two degrees of freedom, the p-value can be calculated accordingly. But if the number of observations is less or equal than 30, it is suggested to use instead the critical values given in Table 1 of that paper.
+Given a vector of positive real numbers, the statistic **lmz** proposed in Urzúa (2000) can be used to test for Zipf's law. Since, under the null, **lmz** is asymptotically distributed as a chi-squared distribution with two degrees of freedom, the p-value can be calculated accordingly. But if the number of observations is less or equal than 30, it is suggested to use instead the critical values given in Table 1 of that paper.
+
+## Note
+
 
 ## Syntax
+
+* In the case of the Python script **lmz.py**, included in this reository, the   in this repository 
 
 ## Remarks
 
 * It is not advisable to test for Zipf's law by means of a regression (Urzúa, 2011).
 
-* In a diverse number of disciplines, from Linguistics to Geography, it testing for Zipf's law is a very particular case of of a power-law behavior. If the researcher A good number  The statistical test is locally optimal if the possible alternative distributions are contained in the Pareto Type (IV) family. The last output of the program provides a maximum-likelihood estimate of the shape parameter alpha. If the null hypothesis of power-law behavior cannot be rejected, this estimate may be of some interest. But if the null is rejected, then alpha is not the only parameter that determines the tail of the distribution.
+* In a diverse number of disciplines, from Linguistics to Geography, it is not uncommon to test for Zipf's law.  is a very particular case of of a power-law behavior. If the researcher A good number  The statistical test is locally optimal if the possible alternative distributions are contained in the Pareto Type (IV) family. The last output of the program provides a maximum-likelihood estimate of the shape parameter alpha. If the null hypothesis of power-law behavior cannot be rejected, this estimate may be of some interest. But if the null is rejected, then alpha is not the only parameter that determines the tail of the distribution.
 
-* The **lmz** test is locally optimal if the alternative distributions also exhibit a power-law behavior. More generally, one could try to test first for power-law behavior by means of the **pwlaw** test (Urzúa 2020) which is 
+* The **lmz** test is locally optimal if the alternative distributions also exhibit a power-law behavior. More generally, one could try to test first for power-law behavior by means of the **pwlaw** test (Urzúa 2020), which can be found in the repository 
 
 ## Bibliography
 
