@@ -8,15 +8,15 @@ Carlos M. Urzúa, urzuacarlosm@gmail.com
 
 ## Description
 
-Given a vector *x* of positive real numbers, the statistic **lmz** proposed in Urzúa (2000) can be used to test for Zipf's law. Since, under the null, **lmz** is asymptotically distributed as a chi-squared distribution with two degrees of freedom, the p-value is calculated accordingly. But if the number of observations is less or equal than 30, it is suggested to use instead the critical values given in Table 1 of that paper.
+Given a vector *x* of positive real numbers, the statistic **lmz** proposed in Urzúa (2000) can be used to test for Zipf's law. Under the null, **lmz** is asymptotically distributed as a chi-squared distribution with two degrees of freedom, the p-value is calculated accordingly. But if the number of observations is less or equal than 30, it is suggested to use instead the critical values given in Table 1 of that paper.
 
 The statistic will be computed 
 
 ## Syntax
 
-* In the case of both the Python script **lmz.py** and R program , included in this repository, the   in this repository 
+* In the case of both the Python script **lmz.py** and R program , included in this repository 
 
-## 
+## Notes
 
 * It is not advisable to test for Zipf's law by means of a regression (Urzúa, 2011).
 
