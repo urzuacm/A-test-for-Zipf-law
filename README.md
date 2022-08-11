@@ -8,23 +8,19 @@ Carlos M. Urzúa, urzuacarlosm@gmail.com
 
 ## Description
 
-Given a vector *x* of positive real numbers, and a value of *mu*     the statistic **lmz** proposed in Urzúa (2000) can be used to test for Zipf's law. Under the null **lmz** is asymptotically distributed as a chi-squared distribution with two degrees of freedom, and so the p-value can be estimated accordingly. But if the number of observations is less or equal than 30, it is suggested to use instead the critical values given in Table 1 of that paper.
+Given a vector *x* of positive real numbers, the statistic **lmz** proposed in Urzúa (2000) can be used to test for Zipf's law. Under the null **lmz** is asymptotically distributed as a chi-squared distribution with two degrees of freedom, and so the p-value can be estimated accordingly. But if the number of observations is less or equal than 30, it is suggested to use instead the critical values given in Table 1 of that paper.
 
-The statistic will be computed 
+The vector of positive numbers does not need to be ordered, and only the observations greater or equal than a given value of *mu* are used to compute the statistic. This is handy because Zipf's law is typically rejected when *mu*  
 
 ## Syntax
 
-* In the case of both the Python script **lmz.py** and R program , included in this repository 
+* In the case of both the Python script *lmz.py* and the R program *lmz, included in this repository 
 
 ## Notes
 
 * It is not advisable to test for Zipf's law by means of a regression (Urzúa, 2011).
 
-* In a diverse number of disciplines, from Linguistics to Geography, it is not uncommon to test for Zipf's law. It is worth noticing, however, that such a law is a limit case among the distributions that exhibit a power-law behavior. To test first for that behavior by means of the **pwlaw** statistic (Urzúa 2020), which can be found in the repository https://github.com/urzuacarlosm/A-test-for-power-law
-
-## Examples
-
-
+* In a diverse number of disciplines, from Linguistics to Geography, it is not uncommon to test for Zipf's law. It is worth noticing, however, that such a law is a limit case among the distributions that exhibit a power-law behavior. To test for that behavior the **pwlaw** statistic proposed in Urzúa (2020) can be used. The repository https://github.com/urzuacarlosm/A-test-for-power-law 
 
 ## Bibliography
 
