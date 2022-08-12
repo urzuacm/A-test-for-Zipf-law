@@ -10,11 +10,11 @@ Carlos M. Urzúa, urzuacarlosm@gmail.com
 
 Given a vector *x* of positive real numbers, the statistic **lmz** proposed in Urzúa (2000) can be used to test for Zipf's law. Under the null, **lmz** is asymptotically distributed as a chi-squared distribution with two degrees of freedom, and so the probability value can be estimated accordingly. But if the number of observations is less or equal than 30, it is suggested to use instead the critical values given in Table 1 of that paper.
 
-The vector *x* does not need to be ordered, and only the observations greater or equal than a given value of *mu* are used to compute the statistic. This is handy because Zipf's law is typically rejected when *mu* (>= minimum element of *x*) is not close to the right-hand side tail of the distribution. Contrast the two examples given in the last section of Urzúa (2000).  
+The vector *x* does not need to be ordered, and only the observations greater or equal than a given value of *mu* are used to compute the statistic. This is handy because Zipf's law is typically rejected when *mu* (>= minimum element of *x*) is not close to the right tail of the distribution. Contrast the two examples given in the last section of Urzúa (2000).  
 
 ## Syntax
 
-* The call function is simply *lmz*(*x*,*mu*) in the case of both the Python script *lmz.py* and the R program *lmz.R* included in this repository.
+* The call function is simply *lmz*(*x*,*mu*) in the case of, both, the Python script *lmz.py* and the R program *lmz.R* included in this repository.
 
 ## Notes
 
